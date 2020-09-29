@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-tour-of-books"
+    }
+  },
+  "defaultProject": "angular-tour-of-books",
+  "cli": {
+    "analytics": false
+  }
 }

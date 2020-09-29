@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+/* Application-wide Styles */
+h1 {
+  font-family: Century Gothic;
+  font-size: 250%;
+  font-weight: lighter;
+  padding: 0.1em;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: #797d62;
+  text-align:center;
+  color: #997b66;
+}
+h2{
+  font-family: Century Gothic;
+  font-weight: lighter;
+  text-align: center;
+  background-color: #997b66;
+  padding: 0.3em;
+  color: white;
+}
+h4 {
+  
+  font-family: Century Gothic;
+  font-weight: lighter;
+  text-align: center;
+}
+body {
+  background-color: #f4f1de;
+}
+/* everywhere else */
+* {
+  font-family: Century Gothic;
+}/* You can add global styles to this file, and also import other style files */

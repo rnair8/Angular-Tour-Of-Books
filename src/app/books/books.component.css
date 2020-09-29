@@ -1,0 +1,45 @@
+/* BooksComponent's private CSS styles */
+.books {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 84em;
+}
+.books li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #9b9b7a;
+  margin: .5em;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+  color: white;
+}
+.books li:hover {
+  color: #white;
+  background-color: #ffcb69;
+  left: .1em;
+}
+.books li.selected {
+  background-color: #d08c60;
+  color: white;
+}
+.books li.selected:hover {
+  background-color: #d08c60;
+  color: white;
+}
+.books .badge {
+  display: inline-block;
+  font-size: small;
+  color: black;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color:#f1dca7;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
